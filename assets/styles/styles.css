@@ -1,0 +1,34 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.info-container {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.span-number {
+    color: #A4A6A7;
+    font-size: 60px;
+    font-family: 'Gugi', sans-serif;
+}
+
+.span-number-sm {
+    font-size: 38px;
+}
+
+.span-number-xl {
+    font-size: 100px;
+}
+
+@media(max-width:576px) {
+    .span-number-xl {
+        font-size: 60px;
+    }
+}
