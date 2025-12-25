@@ -8,6 +8,11 @@
     color: white;
 }
 
+.btn-outline-corp {
+    border: 1px solid var(--color-corp);
+    color: white;
+}
+
 .bg-corp {
     background: var(--color-corp);
 }
@@ -44,10 +49,22 @@
     color: var(--color-corp);
 }
 
+.pt-custom {
+    padding-top: 200px;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
 @media(max-width: 990px) {
     .btn {
-        min-width: unset;
-        padding: 5px 10px;
+        min-width: 200px;
+        padding: 10px 10px;
         font-size: 14px;
+    }
+
+    .pt-custom {
+        padding-top: 100px;
     }
 }

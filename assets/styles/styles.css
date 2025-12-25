@@ -27,8 +27,26 @@ a {
     font-size: 100px;
 }
 
+@media(max-width: 990px) {
+    .main-page-banner-img {
+        height: 900px;
+    }
+}
+
 @media(max-width:576px) {
     .span-number-xl {
         font-size: 60px;
+    }
+
+    .banner-img-sm {
+        height: 300px;
+    }
+
+    .banner-img-md {
+        height: 400px;
+    }
+
+    .main-page-banner-img {
+        height: 800px;
     }
 }
